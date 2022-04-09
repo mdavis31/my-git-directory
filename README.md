@@ -7,6 +7,6 @@ MGD is a simple Go client-server "directory" that allows easy syncing of small f
   `$ ssh-keygen -t ed25519 -C "your_email@example.com"`
   - If you choose a passphrase, you can use `ssh-agent` to securely save it for multiple uses.
     - `exec ssh-agent bash` to start ssh-agent if its not running. then run `ssh-add`
-  - If you want to recreate/add a passphrase, type: `ssh-keygen -p -f ~/.ssh/id_ed25519` *if ed25519 was the algo used*
-- Copy your id_{algorithm}.pub file to your clipboard
+  - If you want to recreate/add a passphrase, type: `ssh-keygen -p -f ~/.ssh/id_ed25519`
+- Copy your id_ed25519.pub file to your clipboard
 - Go into github (or any server) settings and add you ssh public key there.
