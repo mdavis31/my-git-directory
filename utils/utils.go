@@ -2,6 +2,6 @@ package utils
 
 import "log"
 
-func tester() {
+func Tester() {
 	log.Println("IN Tester")
 }
